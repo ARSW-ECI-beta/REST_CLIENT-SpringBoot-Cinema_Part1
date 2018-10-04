@@ -90,7 +90,7 @@
     Junto con dos operaciones públicas, una que permita cambiar el nombre del cinema actualmente seleccionado y otra que permita cambiar la fecha.
 
 
-4. Agregue al módulo 'app.js' una operación pública que permita actualizar el listado de las funciones, a partir del nombre del cine y la fecha de la función (dados como parámetro). Para hacer esto, dicha operación debe invocar la operación 'getFunctionsByCinemaAndDate' del módulo 'apimock' provisto, enviándole como _callback_ una función que:
+4. Agregue al módulo 'app.js' una operación pública que permita actualizar el listado de las funciones,esto, a partir del nombre del cine y la fecha de la función (dados como parámetro). Para hacerlo, dicha operación debe invocar la operación 'getFunctionsByCinemaAndDate' del módulo 'apimock' provisto, enviándole como _callback_ una función que:
 
     * Tome el listado de las funciones, y le aplique una función 'map' que convierta sus elementos a objetos con sólo el nombre y el género de la película.
 
@@ -98,7 +98,7 @@
 
 5. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 
-6. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un cine existente, se cargue el listado del mismo.
+6. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un cine existente, se cargue el listado de funciones del mismo.
 
 ## Para la próxima semana
 
