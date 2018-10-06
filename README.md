@@ -5,7 +5,7 @@
 
 ## Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I.
 
-![](img/mock.png)
+![](img/mock_.png)
 
 **Objetivos**
 
