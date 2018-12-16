@@ -1,13 +1,17 @@
 
 
+
 ### Escuela Colombiana de Ingeniería
 ### Arquiecturas de Software
 
-## Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I.
+## Laboratorio Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I.
+
+### Dependencias
+* [Laboratorio API REST para la gestión de compra/reserva de boletos de cine.](https://github.com/ARSW-ECI-beta/REST_API-SpringBoot-Cinema)
 
 ![](img/mock_.png)
 
-**Objetivos**
+**Descripción y objetivos**
 
 * Crear un cliente que se conecte con el API Rest generado [anteriormente](https://github.com/ARSW-ECI-beta/REST_API-SpringBoot-Cinema) de manera que se pueda interactuar con él desde el navegador.
 * Al oprimir el botón 'Get Functions', consultar las funciones de un determinado cine y una fecha dados por el usuario. Por ahora, si la consulta genera un error, sencillamente no se mostrará nada.
@@ -15,7 +19,7 @@
 * Al seleccionar una de las funciones se debe mostrar el dibujo de la disponibilidad de la misma. Por ahora, el dibujo será simplemente una serie de cuadrados en pantalla que representan las sillas, y dependiendo de su disponibilidad tendrán un color distinto.
 
 
-## Ajustes Backend
+### Parte I - Ajustes Backend
 
 1. Trabaje sobre la base del proyecto anterior una vez solucionado ([REST-API Cinema](https://github.com/ARSW-ECI-beta/REST_API-SpringBoot-Cinema)).
 2. Incluya dentro de las dependencias de Maven los 'webjars' de jQuery y Bootstrap (esto permite tener localmente dichas librerías de JavaScript al momento de construír el proyecto):
@@ -40,7 +44,7 @@
 
     ```
 
-## Front-End - Vistas
+### Parte II - Front-End - Vistas
 
 1. Cree el directorio donde residirá la aplicación JavaScript. Como se está usando SpringBoot, la ruta para poner en el mismo contenido estático (páginas Web estáticas, aplicaciones HTML5/JS, etc) es:  
 
@@ -72,7 +76,7 @@
     ```
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
 
-## Front-End - Lógica
+### Parte III - Front-End - Lógica
 
 1. Ahora, va a crear un Módulo JavaScript que, a manera de controlador, mantenga los estados y ofrezca las operaciones requeridas por la vista. Para esto tenga en cuenta el [patrón Módulo de JavaScript](https://toddmotto.com/mastering-the-module-pattern/), y cree un módulo en la ruta static/js/app.js .
 
@@ -102,7 +106,7 @@
 
 7. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un cine existente, y una fecha en donde estén agendadas funciones, se cargue el listado de funciones del mismo.
 
-## Parte 2
+### Parte IV
 
 8. A la página, agregue un [elemento de tipo Canvas](https://www.w3schools.com/html/html5_canvas.asp), con su respectivo identificador. Haga que sus dimensiones no sean demasiado grandes para dejar espacio para los otros componentes, pero lo suficiente para poder visualizar cómodamente los asientos de la sala.
 
