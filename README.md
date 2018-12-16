@@ -4,7 +4,7 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquiecturas de Software
 
-## Laboratorio Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I.
+## Laboratorio Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I. - Caso Cinema 
 
 ### Dependencias
 * [Laboratorio API REST para la gestión de compra/reserva de boletos de cine.](https://github.com/ARSW-ECI-beta/REST_API-SpringBoot-Cinema)
